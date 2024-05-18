@@ -1,0 +1,1 @@
+HazardaEnElixir.play(Game.new)
