@@ -17,6 +17,8 @@
           mix escript.build --no-deps-check
         '';
 
+        buildInputs = [ pkgs.erlang ];
+
         installPhase = "install -Dt $out/bin ${name}";
       };
     in
